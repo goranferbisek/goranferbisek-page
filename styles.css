@@ -1,0 +1,66 @@
+/* Reset some default browser styles */
+body, h1, .social-links {
+    margin: 0;
+    padding: 0;
+}
+
+/* Full height of the viewport */
+html, body {
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Container for centering content */
+.container {
+    text-align: center;
+}
+
+/* Heading style */
+h1 {
+    font-size: 4em;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Style for individual letters */
+.letter {
+    display: inline-block;
+    transition: transform 0.3s, text-shadow 0.3s;
+}
+
+.letter:hover {
+    transform: scale(1.2);
+    text-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+/* Social links container */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Social links style */
+.social-links a {
+    color: #fff;
+    font-size: 2em;
+    transition: transform 0.3s, text-shadow 0.3s;
+}
+
+/* Animate icons on hover */
+.social-links a:hover {
+    transform: scale(1.2);
+    text-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+/* Add some subtle shadow for depth */
+h1 {
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
